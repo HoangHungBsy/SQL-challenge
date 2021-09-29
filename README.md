@@ -2,24 +2,23 @@
 
 **Over view**
 
-I have been tasked by the fictional Pewlett-Hackard company to discover some insights on their employee data from the 1980s and 1990s. Using the provided data, I create a data model including an ERD diagram and table schema that includes specific data types, primary keys, foreign keys, and other constraints. Data collected from CSVs is then loaded to the SQL database and the following analysis questions are answered using SQL queries:
+J'ai été confié par la société fictive Pewlett-Hackard de découvrir quelques informations sur les données de ses employés des années 1980 et 1990. À l'aide des données fournies, je crée un modèle de données comprenant un diagramme ERD et un schéma de table qui inclut des types de données spécifiques, des clés primaires, des clés étrangères et d'autres contraintes. Les données collectées à partir des CSV sont ensuite chargées dans la base de données SQL et les questions d'analyse suivantes sont répondues à l'aide de requêtes SQL :
 
 
 **Data Analysis**
 
+1.Énumérez les détails suivants de chaque employé : numéro d'employé, nom, prénom, sexe et salaire.
 
-1.List the following details of each employee: employee number, last name, first name, gender, and salary.
+2.Énumérez les employés qui ont été embauchés en 1986.
 
-2.List employees who were hired in 1986.
+3.Répertoriez le responsable de chaque service avec les informations suivantes : numéro de service, nom du service, numéro d'employé du responsable, nom, prénom et dates de début et de fin d'emploi.
 
-3.List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name, and start and end employment dates.
+4. listez des services de chaque employé avec les informations suivantes : numéro d'employé, nom, prénom et nom du service.
 
-4.List the department of each employee with the following information: employee number, last name, first name, and department name.
+5.listez tous les employés dont le prénom est « Hercule » et les noms de famille commencent par « B ».
 
-5.List all employees whose first name is "Hercules" and last names begin with "B."
+6.Répertoriez tous les employés du service des ventes, y compris leur numéro d'employé, leur nom, leur prénom et le nom du service.
 
-6.List all employees in the Sales department, including their employee number, last name, first name, and department name.
+7. Répertoriez tous les employés des services Ventes et Développement, y compris leur numéro d'employé, leur nom, leur prénom et le nom du service.
 
-7.List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
-
-8.In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+8.Dans l'ordre décroissant, indiquez le nombre de fréquences des noms de famille des employés, c'est-à-dire combien d'employés partagent chaque nom de famille.
