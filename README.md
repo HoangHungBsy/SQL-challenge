@@ -2,7 +2,7 @@
 
 **Over view**
 
-J'ai été confié par la société fictive Pewlett-Hackard de découvrir quelques informations sur les données de ses employés des années 1980 et 1990. À l'aide des données fournies, je crée un modèle de données comprenant un diagramme ERD et un schéma de table qui inclut des types de données spécifiques, des clés primaires, des clés étrangères et d'autres contraintes. Les données collectées à partir des CSV sont ensuite chargées dans la base de données SQL et les questions d'analyse suivantes sont répondues à l'aide de requêtes SQL :
+J'ai été confié par la société fictive Pewlett-Hackard de découvrir quelques informations sur les données de ses employés des années 1980 et 1990. À l'aide des données fournies, je crée un modèle de données comprenant un diagramme ERD et un schéma de table qui inclut des types de données spécifiques, des clés primaires, des clés étrangères et d'autres contraintes. Les données collectées à partir des CSV sont ensuite chargées dans la base de données POSTGRESQL et les questions d'analyse suivantes sont répondues à l'aide de requêtes SQL :
 
 
 **Data Analysis**
